@@ -1,5 +1,23 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.ticker-animation {
+  display: flex;
+  animation: ticker-scroll 20s linear infinite;
+}
+
 
 @custom-variant dark (&:is(.dark *));
 
