@@ -2,7 +2,8 @@
 
 import { TypewriterEffect } from "@/components/ui/Features/typewriter-effect";
 import { TechTicker } from "@/components/ui/Features/techticker";
-import { SparklesCore } from "@/components/ui/sparkles";
+import { SparklesCore } from "@/components/ui/Layout/sparkles";
+import HeroSectionOne from "@/components/ui/Layout/hero-section-demo-1";
 
 export default function Home() {
   const logos = [
@@ -27,13 +28,12 @@ export default function Home() {
     {/* Sparkles background */}
     <SparklesCore className="absolute inset-0 z-0" />
 
-    <div className="relative z-10 flex flex-col items-center justify-center fixed top-35 left-0 w-full">
-      <TypewriterEffect words={[{ text: "Jacob McDaniels"}]} />
-      
+    <div className="relative z-10 flex flex-col items-center justify-center fixed top-0 left-0 w-full">
+      <TechTicker logos={logos} speed={50}></TechTicker>
     </div>
 
-    <div className="relative z-10 flex flex-col items-center justify-center pt-45">
-      <TechTicker logos={logos} speed={50}></TechTicker>
+    <div>
+      <HeroSectionOne></HeroSectionOne>
     </div>
 
     
