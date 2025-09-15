@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import { TypewriterEffect } from "@/components/ui/Features/typewriter-effect";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Layout/tabs";
-import FeaturesSectionDemo  from "@/components/ui/Layout/bio-section";
+
 
 export default function HeroSectionOne() {
   return (
@@ -78,7 +78,7 @@ export default function HeroSectionOne() {
               <TabsTrigger value="projects">Projects</TabsTrigger>
             </TabsList>
             <TabsContent value="Bio">
-              <FeaturesSectionDemo></FeaturesSectionDemo>
+
             </TabsContent>
             <TabsContent value="projects">
               Change your password here.</TabsContent>
@@ -104,10 +104,7 @@ const Navbar = () => {
           </div>
         </h1>
       </div>
-      <button
-        className="w-24 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 md:w-32 dark:bg-white dark:text-black dark:hover:bg-gray-200">
-        Login
-      </button>
+      
     </nav>
   );
 };
