@@ -3,7 +3,8 @@
 import { motion } from "motion/react";
 import { TypewriterEffect } from "@/components/ui/Features/typewriter-effect";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Layout/tabs";
-
+import { ResizablePanelGroup, ResizablePanel, ResizableHandle }  from "@/components/ui/Layout/resizable";
+import Image from "next/image";
 
 export default function HeroSectionOne() {
   return (
@@ -71,17 +72,52 @@ export default function HeroSectionOne() {
             delay: 1,
           }}
 
-          className="relative z-10 mt-8 flex flex-wrap items-center justify-center left-15">
-          <Tabs defaultValue="Bio" className="">
+          className="relative z-10 mt-8 flex flex-wrap items-center justify-center">
+          <Tabs defaultValue="Bio" className="relative z-10 mt-8 flex flex-wrap items-center justify-center">
             <TabsList>
               <TabsTrigger value="Bio">Bio</TabsTrigger>
               <TabsTrigger value="projects">Projects</TabsTrigger>
             </TabsList>
             <TabsContent value="Bio">
-
+                <ResizablePanelGroup
+                  direction="horizontal"
+                  className="min-h-[550px] max-w-md rounded-lg border md:min-w-[1200px]"
+                >
+                  <ResizablePanel defaultSize={25}>
+                    <div className="flex flex-col h-full items-left justify-center p-6">
+                      <span className=""><Image src="/ph1.jpg" alt="My photo" width={500} height={500}/></span>
+                      <span className="font-semibold text-white  text-lg">Current Role: Data Analyst Intern</span>
+                      <span className="font-semibold text-white  text-lg">School Year: Junior</span>
+                      <span className="font-semibold text-white  text-lg">Looking for: Software Engineering and Data Analytics Roles</span><br></br>
+                      
+                    </div>
+                  </ResizablePanel>
+                  <ResizableHandle withHandle />
+                  <ResizablePanel defaultSize={75}>
+                    // needed flex flex-col here to make vertically paragrpahed text
+                    <div className="flex flex-col h-full items-left justify-left p-6">
+                      <span className="font-semibold text-white  text-2xl">Technical Skills</span><br></br>
+                      <p><span className="font-semibold text-white text-left text-lg">Languages: Java, C++, Python,
+                      JavaScript, TypeScript, SQL </span></p><br></br>
+                      <p><span className="font-semibold text-white text-left text-lg">Frameworks/Technologies: Node.js,
+                         React, Next.js, Angular, Spring Boot, Django</span></p> <br></br>
+                      <p><span className="font-semibold text-white text-left text-lg">Databases: PostgreSQL, Oracle, 
+                        CosmosDB</span></p><br></br>
+                      <p><span className="font-semibold text-white text-left text-lg">Cloud Platforms: Microsoft Azure, 
+                        AWS, Render, Heroku, Vercel, GithubPages</span></p><br></br>
+                      <p><span className="font-semibold text-white text-left text-lg">Tools: Postman, PostgreAdmin4, 
+                        DjangoAdmin, Docker, Git, Github, Maven
+                         </span></p><br></br>
+                      <p><span className="font-semibold text-white text-left text-lg">Other: RESTful APIs, Agile Methodologies</span></p>
+                      
+                    </div>
+                  </ResizablePanel>
+                </ResizablePanelGroup>
+              
             </TabsContent>
-            <TabsContent value="projects">
-              Change your password here.</TabsContent>
+            <TabsContent value="projects" classname="relative z-10 mt-8 flex flex-wrap items-center justify-center">
+              
+            </TabsContent>
           </Tabs>
 
         </motion.div>
