@@ -2,6 +2,7 @@
 
 import { motion } from "motion/react";
 import { TypewriterEffect } from "@/components/ui/Features/typewriter-effect";
+import { InputWithButton } from "@/components/ui/Features/inputNbutton";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Layout/tabs";
 import { ResizablePanelGroup, ResizablePanel, ResizableHandle }  from "@/components/ui/Layout/resizable";
 import Image from "next/image";
@@ -102,11 +103,11 @@ export default function HeroSectionOne() {
                       <p><span className="font-semibold text-white text-left text-lg">Frameworks/Technologies: Node.js,
                          React, Next.js, Angular, Spring Boot, Django</span></p> <br></br>
                       <p><span className="font-semibold text-white text-left text-lg">Databases: PostgreSQL, Oracle, 
-                        CosmosDB</span></p><br></br>
+                        CosmosDB, Google Cloud SQL</span></p><br></br>
                       <p><span className="font-semibold text-white text-left text-lg">Cloud Platforms: Microsoft Azure, 
-                        AWS, Render, Heroku, Vercel, GithubPages</span></p><br></br>
+                        AWS, Render, Google Cloud, Vercel, GithubPages</span></p><br></br>
                       <p><span className="font-semibold text-white text-left text-lg">Tools: Postman, PostgreAdmin4, 
-                        DjangoAdmin, Docker, Git, Github, Maven
+                        DjangoAdmin, Docker, Git, Github, Trello
                          </span></p><br></br>
                       <p><span className="font-semibold text-white text-left text-lg">Other: RESTful APIs, Agile Methodologies</span></p>
                       
@@ -116,7 +117,12 @@ export default function HeroSectionOne() {
               
             </TabsContent>
             <TabsContent value="projects" classname="relative z-10 mt-8 flex flex-wrap items-center justify-center">
-              
+               
+               <div className="flex flex-col h-full items-left justify-left p-6">
+                      <span className="font-semibold text-white  text-2xl">Search Projects by Language or Framework</span><br></br>
+               </div>
+              <InputWithButton />
+
             </TabsContent>
           </Tabs>
 
