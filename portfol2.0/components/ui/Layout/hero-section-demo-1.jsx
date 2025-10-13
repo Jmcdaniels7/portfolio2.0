@@ -1,13 +1,17 @@
 "use client";
-
+import { useState } from "react";
 import { motion } from "motion/react";
 import { TypewriterEffect } from "@/components/ui/Features/typewriter-effect";
 import { InputWithButton } from "@/components/ui/Features/inputNbutton";
+import SearchProjects from "@/components/ui/Features/searchProjects";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Layout/tabs";
 import { ResizablePanelGroup, ResizablePanel, ResizableHandle }  from "@/components/ui/Layout/resizable";
 import Image from "next/image";
 
 export default function HeroSectionOne() {
+
+  const [searchValue, setSearchValue] = useState("");
+
   return (
     <div
       className="relative mx-auto my-10 flex max-w-7xl flex-col items-center justify-center">
@@ -59,7 +63,7 @@ export default function HeroSectionOne() {
             delay: 0.8,
           }}
           className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-600 text-gray-300">
-          Computer Science @IU Indy | Java | Python | JavaScript | React | Node.js
+          Computer Science @IU Indy | Java | Python | C++ | SQL | Node.js
         </motion.p>
         <motion.div
           initial={{
@@ -118,10 +122,17 @@ export default function HeroSectionOne() {
             </TabsContent>
             <TabsContent value="projects" classname="relative z-10 mt-8 flex flex-wrap items-center justify-center">
                
-               <div className="flex flex-col h-full items-left justify-left p-6">
-                      <span className="font-semibold text-white  text-2xl">Search Projects by Language or Framework</span><br></br>
+               <div className="flex flex-col h-full items-center justify-center p-6">
+                    <span className="font-semibold text-white  text-2xl">Search Projects by Language or Framework</span><br></br>
+                    <InputWithButton onSearch={setSearchValue} />
                </div>
-              <InputWithButton />
+              
+              <SearchProjects query={searchValue} />
+
+            </TabsContent>
+            <TabsContent value="resume" classname="relative z-10 mt-8 flex flex-wrap items-center justify-center">
+               
+               
 
             </TabsContent>
           </Tabs>
