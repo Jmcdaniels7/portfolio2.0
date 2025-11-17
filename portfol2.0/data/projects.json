@@ -22,7 +22,7 @@
   {
     "id": 3,
     "name": "NASA Cleaner Skies",
-    "description": "An Air Quality Index Monitoring App with map, prediction, and alert feature.",
+    "description": "An Air Quality Index Monitoring App with map, prediction, and alert features.",
     "languages": ["Java", "SQL", "JavaScript", "CSS", "HTML"],
     "frameworks": ["React", "Spring Boot"],
     "DBCloudTech": ["Google Cloud Platform", "GitHub Pages", "PostgreSQL"],
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "name": "Warrior The Game",
-    "description": "A charcter based fighting game focused on Obejct Oriented Programming concepts.",
+    "description": "A character based fighting game focused on Object Oriented Programming concepts.",
     "languages": ["C++"],
     "frameworks": [],
     "DBCloudTech": [],
@@ -82,7 +82,7 @@
   {
     "id": 9,
     "name": "Weavers Solitaire Game",
-    "description": "Weavers Solitaire Game focued on Data Structures and Algorithms concepts.",
+    "description": "Weavers Solitaire Game focused on Data Structures and Algorithms concepts.",
     "languages": ["C++"],
     "frameworks": [],
     "DBCloudTech": [],
@@ -102,7 +102,7 @@
   {
     "id": 11,
     "name": "Messy Joes Restraurant POS(Point-of-Sale) System",
-    "description": "A restraunt POS system focusing on Basic Programming concepts in C++.",
+    "description": "A restaurant POS system focusing on Basic Programming concepts in C++.",
     "languages": ["C++"],
     "frameworks": [],
     "DBCloudTech": [],
