@@ -26,7 +26,7 @@ export function InputWithButton({ onSearch }) {
         
       />
       <Button type="submit" variant="outline">
-        <div className="text-black">Search</div>
+        <div className="text-black cursor-pointer">Search</div>
       </Button>
     </form>
   );

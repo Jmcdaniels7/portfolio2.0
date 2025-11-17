@@ -32,7 +32,7 @@ export const SparklesCore = (props) => {
       controls.start({
         opacity: 1,
         transition: {
-          duration: 1,
+          duration: 0.01,
         },
       });
     }

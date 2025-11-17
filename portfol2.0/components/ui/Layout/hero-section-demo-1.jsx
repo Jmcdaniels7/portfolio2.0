@@ -31,7 +31,9 @@ export default function HeroSectionOne() {
         <div
           className="absolute mx-auto h-px w-40 bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
       </div>
-      <div className="px-4 py-10 md:py-20">
+
+      <div className="bg-[rgba(26,26,26,0.6)] backdrop-blur-[1.5px]">
+        <div className="px-4 py-10 md:py-20">
         <h1
           className="relative z-10 mx-auto max-w-4xl text-center text-2xl font-bold text-slate-700 md:text-4xl lg:text-7xl text-white">
           {"Full Stack Developer"
@@ -42,8 +44,8 @@ export default function HeroSectionOne() {
                 initial={{ opacity: 0, filter: "blur(4px)", y: 10 }}
                 animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
                 transition={{
-                  duration: 0.3,
-                  delay: index * 0.1,
+                  duration: 3.5,
+                  delay: index * 1.25,
                   ease: "easeInOut",
                 }}
                 className="mr-2 inline-block">
@@ -59,10 +61,10 @@ export default function HeroSectionOne() {
             opacity: 1,
           }}
           transition={{
-            duration: 0.3,
-            delay: 0.8,
+            duration: 1.5,
+            delay: 5.5,
           }}
-          className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-600 text-gray-300">
+          className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-600 text-white">
           Computer Science @IU Indy | Java | Python | C++ | SQL | Node.js
         </motion.p>
         <motion.div
@@ -73,15 +75,15 @@ export default function HeroSectionOne() {
             opacity: 1,
           }}
           transition={{
-            duration: 0.3,
-            delay: 1,
+            duration: 1.5,
+            delay: 6,
           }}
 
           className="relative z-10 mt-8 flex flex-wrap items-center justify-center">
           <Tabs defaultValue="Bio" className="relative z-10 mt-8 flex flex-wrap items-center justify-center">
             <TabsList>
-              <TabsTrigger value="Bio">Bio</TabsTrigger>
-              <TabsTrigger value="projects">Projects</TabsTrigger>
+              <TabsTrigger value="Bio" className="cursor-pointer">Bio</TabsTrigger>
+              <TabsTrigger value="projects" className="cursor-pointer">Projects</TabsTrigger>
             </TabsList>
             <TabsContent value="Bio">
                 <ResizablePanelGroup
@@ -138,14 +140,18 @@ export default function HeroSectionOne() {
           </Tabs>
 
         </motion.div>
-        
+        </div>
+  
       </div>
+
     </div>
   );
 }
 
 const Navbar = () => {
   return (
+
+    
     <nav
       className="flex w-full items-center justify-between border-t border-b border-neutral-200 px-4 py-4 dark:border-neutral-800">
       <div className="flex items-center gap-2">

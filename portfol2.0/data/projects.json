@@ -5,8 +5,9 @@
     "description": "A job blog app improving Job Blog 1.0 utilizing Deep learning and NLP for job recommendations.",
     "languages": ["Python", "SQL", "JavaScript", "HTML", "CSS"],
     "frameworks": ["Django", "Next.js"],
+    "DBCloudTech": [],
     "website": "",
-    "github": "https://github.com/Jmcdaniels7/Job_Blog_Project.git"
+    "github": ""
   },
   {
     "id": 2,
@@ -14,8 +15,9 @@
     "description": "Lead a team to develop a basic job blogging app.",
     "languages": ["Python", "SQL", "JavaScript", "HTML", "CSS"],
     "frameworks": ["Django"],
+    "DBCloudTech": ["PythonAnywhere", "SQLite"],
     "website": "",
-    "github": "https://github.com/Jmcdaniels7/ProjectsJM/tree/main/Django/Job%20Blog%20Project"
+    "github": "https://github.com/Jmcdaniels7/Job_Blog_Project.git"
   },
   {
     "id": 3,
@@ -23,6 +25,7 @@
     "description": "An Air Quality Index Monitoring App with map, prediction, and alert feature.",
     "languages": ["Java", "SQL", "JavaScript", "CSS", "HTML"],
     "frameworks": ["React", "Spring Boot"],
+    "DBCloudTech": ["Google Cloud Platform", "GitHub Pages", "PostgreSQL"],
     "website": "https://www.clearskiesindy.earth/",
     "github": "https://github.com/Jmcdaniels7/NASA-Cleanier-Skies-Project.git"
   },
@@ -32,6 +35,7 @@
     "description": "A Cross-Platform Math Quiz App for Mobile.",
     "languages": ["Python", "SQL", "Javascript", "HTML", "CSS"],
     "frameworks": ["React Native", "Django"],
+    "DBCloudTech": ["ExpoGo", "JSON", "SQLite"],
     "website": "",
     "github": "https://github.com/Jmcdaniels7/MathGameProjectUI.git"
   },
@@ -39,8 +43,9 @@
     "id": 5,
     "name": "Portfolio 2.0",
     "description": "Current website you are viewing, optimizing and moderninizing Portfolio 1.0.",
-    "languages": ["JavaScript", "HTML", "CSS"],
+    "languages": ["JavaScript", "HTML", "TailwindCSS"],
     "frameworks": ["Next.js"],
+    "DBCloudTech": ["Vercel", "JSON"],
     "website": "",
     "github": "https://github.com/Jmcdaniels7/portfolio2.0.git"
   },
@@ -50,15 +55,17 @@
     "description": "Version 1.0 of my personal portfolio website.",
     "languages": ["Java", "SQL", "JavaScript", "HTML", "CSS"],
     "frameworks": ["React", "Spring Boot"],
+    "DBCloudTech": ["PostgreSQL", "Render", "GitHub Pages"],
     "website": "https://jmcdaniels7.github.io/PortfolioJM/",
     "github": "https://github.com/Jmcdaniels7/PortfolioJM.git"
   },
   {
     "id": 7,
     "name": "Twisted Tooth Fairy Ecommerce App",
-    "description": "A ecommerce app for jewerly and home-made goods.",
+    "description": "Led a team to develop an ecommerce app for jewerly and home-made goods.",
     "languages": ["Python", "SQL", "JavaScript", "HTML", "CSS"],
     "frameworks": ["Django"],
+    "DBCloudTech": ["PythonAnywhere", "SQLite"],
     "website": "",
     "github": "https://github.com/Jmcdaniels7/BlueTeamProject.git"
   },
@@ -68,6 +75,7 @@
     "description": "A charcter based fighting game focused on Obejct Oriented Programming concepts.",
     "languages": ["C++"],
     "frameworks": [],
+    "DBCloudTech": [],
     "website": "",
     "github": "https://github.com/Jmcdaniels7/ProjectsJM/tree/main/C%2B%2B/%20Warrior%20Game%20Project"
   },
@@ -77,6 +85,7 @@
     "description": "Weavers Solitaire Game focued on Data Structures and Algorithms concepts.",
     "languages": ["C++"],
     "frameworks": [],
+    "DBCloudTech": [],
     "website": "",
     "github": "https://github.com/Jmcdaniels7/ProjectsJM/tree/main/C%2B%2B/Weavers%20Solitaire%20Project%20DS/csci202-module-8-final-project-Jmcdaniels7-main"
   },
@@ -86,6 +95,7 @@
     "description": "A database admin app for a fictional store for Hogwarts Students.",
     "languages": ["C++", "SQL"],
     "frameworks": [],
+    "DBCloudTech": ["SQLite"],
     "website": "",
     "github": "https://github.com/Jmcdaniels7/ProjectsJM/tree/main/C%2B%2B/Hogwarts%20DataBase%20Design/DatabaseDesignC%2B%2B/sp25-m08-final-project-Jmcdaniels7-main"
   },
@@ -95,6 +105,7 @@
     "description": "A restraunt POS system focusing on Basic Programming concepts in C++.",
     "languages": ["C++"],
     "frameworks": [],
+    "DBCloudTech": [],
     "website": "",
     "github": "https://github.com/Jmcdaniels7/ProjectsJM/tree/main/C%2B%2B/Restraunt%20POS%20Project"
   }
