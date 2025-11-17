@@ -9,7 +9,6 @@ import { ResizablePanelGroup, ResizablePanel, ResizableHandle }  from "@/compone
 import Image from "next/image";
 
 export default function HeroSectionOne() {
-
   const [searchValue, setSearchValue] = useState("");
 
   return (
@@ -133,8 +132,6 @@ export default function HeroSectionOne() {
 
             </TabsContent>
             <TabsContent value="resume" classname="relative z-10 mt-8 flex flex-wrap items-center justify-center">
-               
-               
 
             </TabsContent>
           </Tabs>
@@ -150,8 +147,6 @@ export default function HeroSectionOne() {
 
 const Navbar = () => {
   return (
-
-    
     <nav
       className="flex w-full items-center justify-between border-t border-b border-neutral-200 px-4 py-4 dark:border-neutral-800">
       <div className="flex items-center gap-2">
