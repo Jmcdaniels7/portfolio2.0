@@ -37,9 +37,11 @@ export default function SearchProjects({ query }) {
             </p>
             
             <div className="flex items-center gap-4 mt-5">
-              <a href={p.github} target="_blank" rel="noopener noreferrer">
-                <FaGithub size={30} className="text-white hover:text-gray-300" />
-              </a>
+              {p.github && (
+                <a href={p.github} target="_blank" rel="noopener noreferrer">
+                  <FaGithub size={30} className="text-white hover:text-gray-300" />
+                </a>
+              )}
 
               {p.website && (
                 <a

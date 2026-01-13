@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "name": "Job Blog 2.0",
-    "description": "A job blog app improving Job Blog 1.0 utilizing Deep learning and NLP for job recommendations.",
-    "languages": ["Python", "SQL", "JavaScript", "HTML", "CSS"],
-    "frameworks": ["Django", "Next.js"],
-    "DBCloudTech": [],
-    "website": "",
-    "github": ""
+    "name": "Income Tax Chatbot",
+    "description": "Quick Vercel Template with a Income Tax Chatbot to Demonstrate basic AI chatbot development skills.",
+    "languages": ["Typescript", "Javascript", "HTML", "CSS", "TailwindCSS"],
+    "frameworks": ["Next.js", "React"],
+    "DBCloudTech": ["Vercel", "JSON"],
+    "website": "https://tanstack-start-on-vercel-azure.vercel.app/",
+    "github": "https://github.com/Jmcdaniels7/tanstack-start-on-vercel.git"
   },
   {
     "id": 2,
-    "name": "Job Blog 1.0",
-    "description": "Lead a team to develop a basic job blogging app.",
-    "languages": ["Python", "SQL", "JavaScript", "HTML", "CSS"],
-    "frameworks": ["Django"],
-    "DBCloudTech": ["PythonAnywhere", "SQLite"],
-    "website": "",
-    "github": "https://github.com/Jmcdaniels7/Job_Blog_Project.git"
+    "name": "WhatFriendsDo Modernized Website",
+    "description": "Healthcare Support Consulting Modernized Website to improve user experience and accessibility.",
+    "languages": ["JavaScript", "HTML", "CSS"],
+    "frameworks": [".NET", "Bootstrap"],
+    "DBCloudTech": ["Microsoft Azure", "Microsoft SQL Server"],
+    "website": "https://whatfriendsdo.com",
+    "github": ""
   },
   {
     "id": 3,
@@ -108,7 +108,30 @@
     "DBCloudTech": [],
     "website": "",
     "github": "https://github.com/Jmcdaniels7/ProjectsJM/tree/main/C%2B%2B/Restraunt%20POS%20Project"
+  },
+  {
+    "id": 12,
+    "name": "Job Blog 2.0",
+    "description": "A job blog app improving Job Blog 1.0 utilizing Deep learning and NLP for job recommendations.",
+    "languages": ["Python", "SQL", "JavaScript", "HTML", "CSS"],
+    "frameworks": ["Django", "Next.js"],
+    "DBCloudTech": [],
+    "website": "",
+    "github": ""
+  },
+  {
+    "id": 13,
+    "name": "Job Blog 1.0",
+    "description": "Lead a team to develop a basic job blogging app.",
+    "languages": ["Python", "SQL", "JavaScript", "HTML", "CSS"],
+    "frameworks": ["Django"],
+    "DBCloudTech": ["PythonAnywhere", "SQLite"],
+    "website": "",
+    "github": "https://github.com/Jmcdaniels7/Job_Blog_Project.git"
   }
+  
+
+
     
   
 
